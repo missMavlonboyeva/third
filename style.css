@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 200vh;
+}
+
+.header{
+    width: 100%;
+height: 50px;
+background-color: #ddd;
+display: flex;
+align-items: center;
+justify-content:flex-start;
+padding-left: 150px;
+font-size: 14px;
+}
+.header p{
+    transition: .5s;
+}
+.header p:hover{
+text-decoration: underline;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: center;
+
+}
+.collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: #000;
+    font-weight:600;
+}
+.item a{
+    text-decoration:none;
+    color: #000;
+}
+.active{
+    color: #ddd;
+}
+.banner{
+    width: 100%;
+    height:600px;
+}
+.home{
+padding:5% 20%;
+text-align: center;
+background: url(./promo_bts2023_startframe__exvt2t1iuxme_large\ \(3\).jpg) no-repeat center/cover;
+}
+.home h3{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    width: 40%;
+margin: auto;
+padding-bottom: 10px;
+}
+.home p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    width: 40%;
+margin: auto;
+padding-bottom: 10px;
+}
+.home a{
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.store{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding: 0 8%;
+    align-items: center;
+    background-color: #f6f1f1c2;
+}
+.text{
+    width: 50%;
+    height: 60%;
+}
+.img{
+    background: url(./promo_bts2023_startframe__exvt2t1iuxme_large\ \(2\).jpg) no-repeat center/cover;
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+}
+.text h3{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    width: 40%;
+}
+.text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    width: 40%;
+}
+.text a{
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 120px;
+
+}
+.shop{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+}
+.mac{
+    width: 100%;
+    height: 700px;
+    background: url(./promo_macbook_air_15_midnight__3zojl1nanrme_large\ \(1\).jpg) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.mac h3{
+    font-size: 2rem;
+}
+.mac h5{
+    font-size: 1rem;
+}
+.mac button{
+    padding: 13px 36px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.buy{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.mac a {
+    text-decoration: none;
+}
+.ipad{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.infor{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    color: #fff;
+    text-align: center;
+}
+.infor h1{
+    font-size: 4em;
+}
+.infor button{
+    padding: 13px 36px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #222;
+    border: none;
+}
+.infor a{
+    text-decoration: none;
+    color: #fff;
+}
+.watch{
+    width: 100%;
+    height: 900px;
+    border: 1px solid red;
+    background: url(./promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium\ \(1\).jpg) no-repeat center/cover;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    font-size: 3rem;
+    color: #fff;
+align-items: center;
+justify-content: center;
+}
+.watch{
+    padding: 50px 700px;
+    text-align: center;
+}
+.watch button{
+    border:none;
+padding: 13px 36px;
+border-radius: 30px;
+background-color: dodgerblue;
+color: #fff;
+}
+.watch a{
+    text-decoration: none;
+    color: #fff;
+    font-size:18px;
+}
+.iphone{
+    width: 100%;
+    height: 900px;
+background: url(./hero_iphone14_yellow__eun20sn4imi6_large.jpg) no-repeat center/cover;
+}
+.watch{
+    width: 100%;
+    height: 900px;
+    background: url(./promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium\ \(1\).jpg) no-repeat center/cover;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    font-size: 3rem;
+    color: #fff;
+align-items: center;
+justify-content: center;
+}
+.iphone{
+    padding: 50px 700px;
+    text-align: center;
+}
+.iphone button{
+    border:none;
+padding: 13px 36px;
+border-radius: 30px;
+background-color: dodgerblue;
+color: #fff;
+}
+.iphone a{
+    text-decoration: none;
+    color: #fff;
+    font-size:18px;
+}
+.card{
+    width: 40px;
+    height: 40px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+padding-bottom: 80px;
+}
+.vision{
+    width: 100%;
+    height: 700px;
+    background: url(./hero_endframe__dz973mndvu82_large.jpg) no-repeat center/cover;
+    transition: 1s;
+    transition-delay:1s;
+    position: relative;
+    overflow: hidden;
+}
+.pro{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+}
+.pro button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+.pro h3{
+    color: #fff;
+}
+.vision:hover{
+    background: url(./hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg) no-repeat center/cover;
+}
+.aph{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 50px;
+    background-color: #000;
+}
+.imgbx,.cbx{
+    width: 50%;
+    height: 100%;
+}
+.imgbx{
+    background: url(./graphics_screen__cr7y07sbcoae_large.jpg)
+    no-repeat center/cover;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid #ddd;
+}
+.cbx{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    justify-content: center;
+}
+.cbx p{
+    font-size: 30px;
+}
+.cbx h3{
+    font-size: 3rem;
+    width: 50%;
+    margin:10px 40px;
+}
+.cbx a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.tv{
+height: 800px;
+ width: 100%;
+ padding: 5% 20%;
+ background-color: #f5eeeec4;
+}
+.tv img{
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+}
+.tv h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.tv p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    line-height: 1.4;
+}
+.entertain h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.entertain p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    line-height: 1.4;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 50px 0;
+}
+.tv p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    line-height: 1.4;
+}
+.entertain{
+    height: 800px;
+    width: 100%;
+    padding: 5% 20%;
+    background-color: #f5eeeec4;
+    padding: 10% 30%;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+.access{
+    width: 100%;
+    height: 800px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf6f6;
+}
+.imgbox{
+    width: 60%;
+    height: 50%;
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.textbx{
+    padding-top: 50px;
+}
+.textbx h1{
+font-size: 3rem;
+margin: auto;
+width: 45%;
+}
+.textbx p{
+    font-size: 1.5rem;
+    margin: auto;
+    color: grey;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.textbx a{
+color: #000;
+font-size: 25px;
+text-decoration: none;padding-left: 220px;
+}
+.sup{
+    width: 100%;
+    height: 600px;
+    background: url(./hero-banner-homepage.image.large_2x\ \(1\).jpg) no-repeat center/cover;
+}

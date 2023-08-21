@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --bg:rgba(25, 109, 164, 0.366);
+    --rang:#fff;
+    --size:42px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color:var(--bg);
+    color: var(--rang);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+.title{
+    color: var(--bg);
+    font-size: var(--size);
+}
+.nav__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: var(--rang);
+}
+.nav__link{
+    text-decoration: none;
+    color: var(--rang);
+}
+.active{
+    color: aqua;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background: #ddd;
+}
+.home{
+    background: url(./city.jpg) no-repeat center/cover;
+    filter: sepia(90%);
+}
+.about{
+    background: url(./city2.jpg) no-repeat center/cover;
+}
+.blog{
+    background: url(./city3.jpg) no-repeat center/cover;
+}
+.contact{
+    background: url(./cofee2.jpg) no-repeat center/cover;
+}
